@@ -6,7 +6,7 @@ X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40],
      [177, 70, 40], [159, 55, 37], [171, 75, 42], [181, 85, 43]]
 Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
-
+# Decision tree is  model that classifies data by creating branches for every outcome.
 clf = tree.DecisionTreeClassifier() 
 
 clf = clf.fit(X,Y)
