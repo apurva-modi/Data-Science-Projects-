@@ -40,7 +40,7 @@ def predict_price(dates, prices, x ):
 
 getData('AAPL.csv')
 print(prices)
-print("*****")
+##print("*****")
 predicted_price = predict_price(dates,prices,29)
 
 print(predicted_price)
